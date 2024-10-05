@@ -1,6 +1,6 @@
 # PORTFOLIO
 This is my QA portfolio.
-[Janira Huesca PORTFOLIO](https://github.com/JaniraHuescaQA/qaportfolio)
+[Janira Huesca PORTFOLIO](https://janirahuescaqa.github.io/qaportfolio/)
 
 ## BUILD WITH
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
