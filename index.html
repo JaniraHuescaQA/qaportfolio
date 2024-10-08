@@ -9,7 +9,9 @@
   <title>Janira Huesca - QA Portfolio</title>
 
   <!-- Import Montserrat and Playfair Display from Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap"
+    rel="stylesheet">
 
   <!-- Custom stylesheet -->
   <link href="style.css" rel="stylesheet">
@@ -89,12 +91,20 @@
       <form
         action="https://docs.google.com/forms/d/e/1FAIpQLSelAH07_exqwX5BQ6-Pu5iBp-cmEMJmW2APO24Xlw60aTkpVQ/formResponse"
         method="POST">
-        <input type="email" id="name" name="entry.1564292246" placeholder="Email"><br>
-        <input type="text" id="email" name="entry.877029958" placeholder="Subject"><br>
-        <textarea rows="4" id="message" name="entry.465720647" placeholder="Your message"></textarea><br>
+        <input type="email" id="email" name="entry.1564292246" placeholder="Email" required
+          oninvalid="this.setCustomValidity('Please enter a valid email address')" oninput="setCustomValidity('')"><br>
+
+        <input type="text" id="subject" name="entry.877029958" placeholder="Subject" required maxlength="40"
+          oninvalid="this.setCustomValidity('The subject is required')" oninput="setCustomValidity('')"><br>
+
+        <textarea rows="4" id="message" name="entry.465720647" placeholder="Your message" required maxlength="500"
+          oninvalid="this.setCustomValidity('Please write your message')"
+          oninput="setCustomValidity('')"></textarea><br>
+
         <button type="submit"><i class="fa fa-paper-plane"></i> Send message</button>
       </form>
     </section>
+
   </main>
 
   <footer>
