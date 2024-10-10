@@ -149,6 +149,17 @@ textarea:focus {
     box-shadow: 0 0 8px rgba(64, 112, 136, 0.2);
 }
 
+form p {
+    margin-bottom: 0.8rem;
+}
+
+form p:last-of-type {
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    text-align: end;
+}
+
 /* Submit button */
 .button-container {
     display: flex;

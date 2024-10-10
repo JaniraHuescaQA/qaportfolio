@@ -96,15 +96,21 @@
       <form
         action="https://docs.google.com/forms/d/e/1FAIpQLSelAH07_exqwX5BQ6-Pu5iBp-cmEMJmW2APO24Xlw60aTkpVQ/formResponse"
         method="POST">
-        <input type="email" id="email" name="entry.1564292246" placeholder="Email" required
+        <p>Email*</p>
+        <input type="email" id="email" name="entry.1564292246" placeholder="Enter your email address" required
           oninvalid="this.setCustomValidity('Please enter a valid email address')" oninput="setCustomValidity('')"><br>
 
-        <input type="text" id="subject" name="entry.877029958" placeholder="Subject" required maxlength="40"
+        <p>Subject*</p>
+        <input type="text" id="subject" name="entry.877029958"
+          placeholder="Enter the subject (max 40 characters)" required maxlength="40"
           oninvalid="this.setCustomValidity('The subject is required')" oninput="setCustomValidity('')"><br>
 
-        <textarea rows="4" id="message" name="entry.465720647" placeholder="Your message" required maxlength="500"
-          oninvalid="this.setCustomValidity('Please write your message')"
+        <p>Comments*</p>
+        <textarea rows="4" id="comments" name="entry.465720647" placeholder="Enter your message (max 500 characters)"
+          required maxlength="500" oninvalid="this.setCustomValidity('Please write your message')"
           oninput="setCustomValidity('')"></textarea><br>
+        
+        <p>*Mandatory fields</p>
 
         <div class="button-container">
           <button type="submit"><i class="fa fa-paper-plane"></i> Send message</button>
