@@ -65,9 +65,9 @@ Release will be consider ready when:
 - **[Regression Test Execution Report](./reports/sprint1/regression_test_report-sprint_1.pdf)**: A report outlining the results of regression tests executed at the end of the Sprint 1.
 
 *Sprint 2*
-- **[Functional Test Results](testresultsreport.pdf)**: A document summarizing the execution and results of functional test cases for Sprint 2.
-- **[BUG Report](errorreport.pdf)**: Detailed documentation of any defects found during testing, including severity, steps to reproduce, and resolution for Sprint 2.
-- **[Regression Test Execution Report](regressiontestreport.pdf)**: A report outlining the results of regression tests executed at the end of the Sprint 2.
+- **[Functional Test Results](./reports/sprint2/test_results_report-sprint_2.pdf)**: A document summarizing the execution and results of functional test cases for Sprint 2.
+- **[BUG Report](./reports/sprint2/bugs_report-sprint_2.pdf)**: Detailed documentation of any defects found during testing, including severity, steps to reproduce, and resolution for Sprint 2.
+- **[Regression Test Execution Report](./reports/sprint2/regression_test_report-sprint_2.pdf)**: A report outlining the results of regression tests executed at the end of the Sprint 2.
 
 ## AUTHOR
 Janira Huesca, QA Specialist
